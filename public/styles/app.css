@@ -1,0 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+/* line 4, app.scss */
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #999;
+}
+
+/* line 11, app.scss */
+.welcome {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+/* line 21, app.scss */
+a, a:visited {
+  color: #FF5949;
+  text-decoration: none;
+}
+
+/* line 26, app.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 30, app.scss */
+ul li {
+  display: inline;
+  margin: 0 1.2em;
+}
+
+/* line 35, app.scss */
+p {
+  margin: 2em 0;
+  color: #555;
+}
